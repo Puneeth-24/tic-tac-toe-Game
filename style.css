@@ -1,0 +1,40 @@
+*{
+    font-family:monospace;
+}
+#gameContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.cell{
+    height:75px;
+    width: 75px;
+    border:2px solid;
+    box-shadow:0 0 0 2px;
+    font-family:cursive;
+    text-align:center;
+    line-height: 75px;
+    font-size:5rem;
+    cursor:pointer;
+    
+}
+#cellContainer{
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    width:225px;
+}
+#messageDisplay{
+    font-size:3rem;
+}
+
+#scoreDisplay{
+    margin: 30px;
+    display:flex;
+    gap:100px;
+}
+
+#player1Score,#player2Score{
+    font-size: 3rem;
+}
+
